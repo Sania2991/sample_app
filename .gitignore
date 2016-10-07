@@ -1,0 +1,22 @@
+# Шаблон_1 для .gitignore
+
+# Игнорирование конфига bundle
+/.bundle
+
+# Игнорирование дефолтной  базы данных SQLite.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Игнорирование всех логов и временныз файлов
+/log/*.log
+/tmp
+
+# Игнорирование прочих ненужных файлов
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
